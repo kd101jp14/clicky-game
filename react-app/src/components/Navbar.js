@@ -1,11 +1,13 @@
 import React from "react";
 
 function Navbar() {
-    return (
-      <div class="navbar navbar-dark bg-dark">
-        <div>Score: {} | Top Score: {}</div>
+  return (
+    <div class="navbar navbar-dark bg-dark">
+      <div>
+        Score: {} | Top Score: {}
       </div>
-    );
-  }
-  
-  export default Navbar;
+    </div>
+  );
+}
+
+export default Navbar;
